@@ -25,27 +25,20 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
-                    <a class="nav-link headerlink" href="#">Home
+                    <a class="nav-link headerlink" href="#">首頁
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link headerlink" href="#">Features</a>
+                    <a class="nav-link headerlink" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link headerlink" href="#">Pricing</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle headerlink" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link headerlink" href="#">Pricing</a>
                 </li>
+
             </ul>
         </div>
     </nav>
@@ -159,10 +152,7 @@
     <section id="section3" class="cd-section"></section>
     <section id="section4" class="cd-section"></section>
     <section id="section5" class="cd-section"></section>
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="JS/main.js"></script>
@@ -176,7 +166,22 @@
             backSpeed: 100,
         });
     </script>
-
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            var a = 900;
+            var pos = $(window).scrollTop();
+            if (pos > a) {
+                $(".no-touch #cd-vertical-nav .cd-label").css({
+                    "color": "#000000",
+                });
+            }
+            else {
+                $(".no-touch #cd-vertical-nav .cd-label").css({
+                    "color": "#FFFFFF",
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
