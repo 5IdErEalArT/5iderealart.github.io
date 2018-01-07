@@ -12,12 +12,16 @@
     <script src="JS/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="Icon/profile.png" />
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0px;padding-bottom:0px;">
-        <span class="navbar-brand mb-0 h1" style="font-family: Microsoft JhengHei;font-size:2.5vmin;">
-            <img src="Icon/avatar.png" width="25" height="25" class="d-inline-block align-top" style="margin-top:5px;margin-right:10px;margin-bottom:10px;">關於我</span>
+        <span class="navbar-brand mb-0 h1" style="font-family: Microsoft JhengHei;font-size:2.5vmin;" data-aos="fade-right">
+            <img src="Icon/avatar.png" width="25" height="25" class="d-inline-block align-top" style="margin-top:5px;margin-right:10px;margin-bottom:10px;"
+                data-aos="fade-down">關於我</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,18 +29,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
-                    <a class="nav-link headerlink" href="#">首頁
+                    <a class="nav-link headerlink" href="#" data-aos="fade-right">首頁
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link headerlink" href="#">Blog</a>
+                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link headerlink" href="#">Pricing</a>
+                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link headerlink" href="#">Pricing</a>
+                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Pricing</a>
                 </li>
 
             </ul>
@@ -47,7 +51,7 @@
             <li>
                 <a href="#section1" data-number="1">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Item 1</span>
+                    <span class="cd-label">Intro</span>
                 </a>
             </li>
             <li>
@@ -90,11 +94,12 @@
         <p>こんにちは</p>
         <p> 안녕하세요</p>
     </div>
+    <div id="scroll">
     <section id="section1" class="main-section cd-section">
         <span id="typed" style="font-size:20vmin;color:white;z-index:20;position:absolute;left:35%;margin-top:8%;"></span>
     </section>
-    <section id="section2" class="cd-section">
-        <div id="article">Eat imagine you chiefly few end ferrars compass. Be visitor females am ferrars inquiry. Latter law remark two lively
+    <section id="section2" class="cd-section section">
+        <div id="article" data-aos="fade-right">Eat imagine you chiefly few end ferrars compass. Be visitor females am ferrars inquiry. Latter law remark two lively
             thrown.
             <strong>Spot set they know rest its. Raptures law diverted believed jennings consider children the see. </strong>Had
             invited beloved carried the colonel. Occasional principles discretion it as he unpleasing boisterous. She bed
@@ -132,31 +137,67 @@
             nor preference.
         </div>
         <div id="vline"></div>
-        <div class="image01">
+        <div class="image01" data-aos="flip-up">
             <img src="https://loremflickr.com/700/480/city?random=1" class="image">
             <div class="ovrly"></div>
             <div class="buttons">
-                <a href="#" class="fa fa-link"></a>
-                <a href="#" class="fa fa-search"></a>
+                <a href="" class="fa fa-link"></a>
+                <a href="" class="fa fa-search"></a>
             </div>
         </div>
-        <div class="image01">
+        <div class="image01" data-aos="flip-up">
             <img src="https://loremflickr.com/700/480/city?random=2" class="image">
             <div class="ovrly"></div>
             <div class="buttons">
-                <a href="#" class="fa fa-link"></a>
-                <a href="#" class="fa fa-search"></a>
+                <a href="" class="fa fa-link"></a>
+                <a href="" class="fa fa-search"></a>
             </div>
         </div>
     </section>
-    <section id="section3" class="cd-section"></section>
-    <section id="section4" class="cd-section"></section>
-    <section id="section5" class="cd-section"></section>
+    <section id="section3" class="cd-section section">
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section id="section4" class="cd-section section"></section>
+    <section id="section5" class="cd-section section">
+        <div id="left">
+            <p id="title-c">聯絡我</p>
+            <p id="title-e">Contact me</p>
+        </div>
+        <div id="right">
+            <a href="">
+                <img src="Icon/facebook.png" class="contact-icon" />
+            </a>
+            <a>
+                <img src="Icon/instagram.png" class="contact-icon" />
+            </a>
+            <a>
+                <img src="Icon/gmail.png" class="contact-icon" />
+            </a>
+            <a>
+                <img src="Icon/google-plus.png" class="contact-icon" />
+            </a>
+            <a>
+                <img src="Icon/twitter.png" class="contact-icon" />
+            </a>
+        </div>
+    </section>
+</div>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="JS/main.js"></script>
     <script src="JS/typed.min.js"></script>
+    <script src="JS/scrollsnap-polyfill.bundled.js"></script>
     <script>
         var typed = new Typed('#typed', {
             stringsElement: '#typed-strings',
@@ -180,6 +221,10 @@
                     "color": "#FFFFFF",
                 });
             }
+        });
+    </script>
+    <script>
+        AOS.init({
         });
     </script>
 </body>
