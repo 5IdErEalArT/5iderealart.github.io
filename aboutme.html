@@ -14,56 +14,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="Icon/profile.png" />
-
+    <link rel="stylesheet" href="CSS/hover.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0px;padding-bottom:0px;">
-        <span class="navbar-brand mb-0 h1" style="font-family: Microsoft JhengHei;font-size:2.5vmin;" data-aos="fade-right">
-            <img src="Icon/avatar.png" width="25" height="25" class="d-inline-block align-top" style="margin-top:5px;margin-right:10px;margin-bottom:10px;"
-                data-aos="fade-down">關於我</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active ">
-                    <a class="nav-link headerlink" href="#" data-aos="fade-right">首頁
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link headerlink" href="#" data-aos="fade-right">Pricing</a>
-                </li>
 
-            </ul>
-        </div>
-    </nav>
     <nav id="cd-vertical-nav">
         <ul>
             <li>
                 <a href="#section1" data-number="1">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Intro</span>
+                    <span class="cd-label">頂端</span>
                 </a>
             </li>
             <li>
                 <a href="#section2" data-number="2">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Item 2</span>
+                    <span class="cd-label">文章</span>
                 </a>
             </li>
             <li>
                 <a href="#section3" data-number="3">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Item 1</span>
+                    <span class="cd-label">介紹</span>
                 </a>
             </li>
             <li>
@@ -75,7 +48,7 @@
             <li>
                 <a href="#section5" data-number="5">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Item 1</span>
+                    <span class="cd-label">聯絡我</span>
                 </a>
             </li>
         </ul>
@@ -96,6 +69,27 @@
     </div>
 
     <section id="section1" class="main-section cd-section scrollsec">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0px;padding-bottom:0px;">
+            <span class="navbar-brand mb-0 h1" style="font-family: Microsoft JhengHei;font-size:2.5vmin;" data-aos="fade-right">
+                <img src="Icon/avatar.png" width="25" height="25" class="d-inline-block align-top" style="margin-top:5px;margin-right:10px;margin-bottom:10px;"
+                    data-aos="fade-down">關於我</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ">
+                        <a class="nav-link headerlink hvr-wobble-horizontal" href="" data-aos="fade-right">首頁
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headerlink hvr-wobble-horizontal" href="" data-aos="fade-right">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <span id="typed" style="font-size:20vmin;color:white;z-index:20;position:absolute;left:35%;margin-top:8%;"></span>
     </section>
     <section id="section2" class="cd-section section scrollsec">
@@ -133,19 +127,11 @@
         </div>
         <div id="vline"></div>
         <div class="image01" data-aos="flip-up">
-            <img src="https://loremflickr.com/700/480/city?random=1" class="image">
+            <img src="https://picsum.photos/700/1000/?random" class="image">
             <div class="ovrly"></div>
             <div class="buttons">
-                <a href="" class="fa fa-link"></a>
-                <a href="" class="fa fa-search"></a>
-            </div>
-        </div>
-        <div class="image01" data-aos="flip-up">
-            <img src="https://loremflickr.com/700/480/city?random=2" class="image">
-            <div class="ovrly"></div>
-            <div class="buttons">
-                <a href="" class="fa fa-link"></a>
-                <a href="" class="fa fa-search"></a>
+                <a href="https://picsum.photos" class="fa fa-link"></a>
+                <a href="https://cdn2.ettoday.net/images/2471/2471912.jpg" class="fa fa-search"></a>
             </div>
         </div>
     </section>
@@ -169,19 +155,19 @@
         </div>
         <div id="right">
             <a href="">
-                <img src="Icon/facebook.png" class="contact-icon" />
+                <img src="Icon/facebook.png" class="contact-icon" data-aos="fade-down" />
             </a>
             <a>
-                <img src="Icon/instagram.png" class="contact-icon" />
+                <img src="Icon/instagram.png" class="contact-icon" data-aos="fade-down" data-aos-delay="100" />
             </a>
             <a>
-                <img src="Icon/gmail.png" class="contact-icon" />
+                <img src="Icon/gmail.png" class="contact-icon" data-aos="fade-down" data-aos-delay="200" />
             </a>
             <a>
-                <img src="Icon/google-plus.png" class="contact-icon" />
+                <img src="Icon/google-plus.png" class="contact-icon" data-aos="fade-down" data-aos-delay="300" />
             </a>
             <a>
-                <img src="Icon/twitter.png" class="contact-icon" />
+                <img src="Icon/twitter.png" class="contact-icon" data-aos="fade-down" data-aos-delay="400" />
             </a>
         </div>
     </section>
@@ -202,13 +188,14 @@
             backSpeed: 100,
         });
     </script>
-    <!--<script>
+    <script>
         $(function () {
             $.scrollify({
                 section: ".scrollsec",
+                scrollSpeed: 900,
             });
         });
-    </script>-->
+    </script>
     <script type="text/javascript">
         $(window).scroll(function () {
             var a = 900;
