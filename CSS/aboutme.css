@@ -39,21 +39,33 @@ height:auto;
 }
 #article {
     width: 45%;
-    margin-top: 1%;
-    margin-left: 5%;
+    margin-top: 15%;
+    margin-left: 2%;
     float: left;
-    margin-right: 1%;
+    margin-right: 2%;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7vmin;
 }
 
+#titlefav{
+    text-align: center;
+    font-size:5vmin;
+    top:15%;
+    font-family: Microsoft JhengHei;
+}
 #vline {
     border-left: 1px solid #b9b9b9;
     height: 95vh;
     float: left;
     margin-top: 1%;
 }
-
+#hline {
+    border-top:1px solid #c0c0c0;
+    width:90vw;
+    position: absolute;
+    top:30%;
+left:5%;
+}
 .headerlink:hover {
     background-color: #e9e9e9;
     cursor:not-allowed;
