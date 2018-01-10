@@ -36,13 +36,13 @@
             <li>
                 <a href="#section3" data-number="3">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">介紹</span>
+                    <span class="cd-label">喜好</span>
                 </a>
             </li>
             <li>
                 <a href="#section4" data-number="4">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Item 1</span>
+                    <span class="cd-label">使用</span>
                 </a>
             </li>
             <li>
@@ -124,30 +124,43 @@
     <section id="section3" class="cd-section section scrollsec">
 
 
+        <div id="top">
+            <p id="titlefav">我喜歡</p>
+        </div>
+        <div id="bottom">
+            <div id="imgfav">
 
-        <p id="titlefav">我喜歡</p>
+                <img src="Icon/music.png" class="imgfav" data-aos="zoom-out"/>
+                <img src="Icon/book.png" class="imgfav" data-aos="zoom-out"/>
+                <img src="Icon/board-game.png" class="imgfav" data-aos="zoom-out"/>
+                <img src="Icon/game.png" class="imgfav" data-aos="zoom-out"/>
+                <img src="Icon/youtube.png" class="imgfav" data-aos="zoom-out"  />
 
-        <div id="hline"></div>
-        <div id="imgfav"
-        <img src="Icon/music.png" />
-        <img src="Icon/book.png" />
-        <img src="Icon/board-game.png" />
-        <img src="Icon/game.png" />
-        <img src="Icon/youtube.png" />
-
-
+            </div>
+            <div id="text1" data-aos="zoom-out">聽音樂</div>
+            <div id="text2" data-aos="zoom-out">看小說</div>
+            <div id="text3" data-aos="zoom-out">桌遊</div>
+            <div id="text4" data-aos="zoom-out">電腦遊戲</div>
+            <div id="text5" data-aos="zoom-out">看影片</div>
+        </div>
 
     </section>
     <section id="section4" class="cd-section section scrollsec">
-
-        <p id="titlefav">我不喜歡</p>
-
-        <div id="hline"></div>
-
-
-
-
-
+        <div id="top2">
+            <p id="titlefav">這個網站用了</p>
+        </div>
+        <div id="bottom2">
+            <div id="imgweb">
+                <a href="https://michalsnik.github.io/aos/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left" >AOS</a>
+                <a href="https://mattboldt.com/demos/typed-js/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"   data-aos-delay="50">Typed.js</a>
+                <a href="https://projects.lukehaas.me/scrollify/#home" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"   data-aos-delay="100">Scrollify</a>
+                <a href="https://getbootstrap.com" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"    data-aos-delay="150">Bootstrap</a>
+                <a href="https://jquery.com/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"   data-aos-delay="200">Jquery</a>
+                <a href="https://fonts.google.com/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"    data-aos-delay="250">Google Font</a>
+                <a href="http://fontawesome.io/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"   data-aos-delay="300">Font Awesome</a>
+                <a href="https://picsum.photos/" class="imgweb btn btn-lg btn-outline-dark" data-aos="flip-left"   data-aos-delay="350">Picsum Photos</a>
+            </div>
+        </div>
     </section>
     <section id="section5" class="cd-section section scrollsec">
         <div id="left">
@@ -155,19 +168,19 @@
             <p id="title-e">Contact me</p>
         </div>
         <div id="right">
-            <a href="">
+            <a href="https://www.facebook.com/SiderealArt">
                 <img src="Icon/facebook.png" class="contact-icon" data-aos="fade-down" />
             </a>
-            <a>
+            <a href="https://www.instagram.com/enfong_tsao/">
                 <img src="Icon/instagram.png" class="contact-icon" data-aos="fade-down" data-aos-delay="100" />
             </a>
-            <a>
+            <a href="mailto:nelson22768384@gmail.com">
                 <img src="Icon/gmail.png" class="contact-icon" data-aos="fade-down" data-aos-delay="200" />
             </a>
-            <a>
+            <a href="https://plus.google.com/+曹恩逢?hl=zh-TW">
                 <img src="Icon/google-plus.png" class="contact-icon" data-aos="fade-down" data-aos-delay="300" />
             </a>
-            <a>
+            <a href="https://twitter.com/SiderealArt">
                 <img src="Icon/twitter.png" class="contact-icon" data-aos="fade-down" data-aos-delay="400" />
             </a>
         </div>
@@ -175,6 +188,7 @@
 
     <script src="JS/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="JS/main.js"></script>
@@ -197,6 +211,7 @@
             });
         });
     </script>
+
     <script type="text/javascript">
         $(window).scroll(function () {
             var a = 900;
@@ -217,6 +232,7 @@
         AOS.init({
         });
     </script>
+
 </body>
 
 </html>
