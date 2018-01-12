@@ -57,9 +57,15 @@
     width:50vw;
     float:left;
     height:100vh;
+    position:relative;
 }
 #right{
-    text-align:center;
+width:45vw;
+position:relative;
+    float:right;
+    height:100vh;
+    text-align: center;
+
 }
 #top{
 width:100vw;
@@ -99,8 +105,8 @@ font-size:8vmin;
     filter: grayscale(100%);
     transition-duration: .3s !important;
     display:inline-block;
-    margin-top:25%;
-    padding-right:3%;
+    margin-top:45%;
+    padding-right:6%;
 max-width:100%;
 height:auto;
 }
